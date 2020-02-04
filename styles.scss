@@ -1,0 +1,37 @@
+@use 'colors';
+
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+
+$font: "sans-serif", bold;
+$font-size: 20px;
+
+$spacing: 225px;
+$double: $spacing * 4;
+
+.title{
+    color: colors.$color;
+    background-color: colors.$background-color;
+    color: #229388;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: $font-size;
+    position: relative;
+}
+img {
+    @include transform(rotate(90deg));
+    width: 20%;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+}
+.profile {
+    background-color: #999999;
+}
+ol {
+    padding-left: 500px;
+    margin: 20px;
+}

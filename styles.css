@@ -1,0 +1,30 @@
+.title {
+  color: #488596;
+  background-color: #594839;
+  color: #229388;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  position: relative;
+}
+
+img {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  width: 20%;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+}
+
+.profile {
+  background-color: #999999;
+}
+
+ol {
+  padding-left: 500px;
+  margin: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
